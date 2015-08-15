@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html>
+    <head>
+        <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+        <link rel="import" href="bower_components/iron-icons/iron-icons.html">
+        <link rel="import" href="bower_components/iron-pages/iron-pages.html">
+        <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
+        <link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
+        <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+        <link rel="import" href="bower_components/paper-item/paper-icon-item.html">
+        <link rel="import" href="bower_components/paper-menu/paper-menu.html">
+        <link rel="import" href="bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
+        <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+    </head>
+    <body unresolved class="fullbleed layout vertical">
+        <paper-drawer-panel>
+            <paper-scroll-header-panel drawer fixed>
+                <paper-toolbar>
+                    <div class="title">CustomTF</div>
+                </paper-toolbar>
+
+                <paper-menu class="list short">
+                    <paper-icon-item>
+                        <iron-icon icon="view-list" item-icon></iron-icon>
+                        Virtual Filesystem
+                    </paper-icon-item>
+                    <paper-icon-item>
+                        <iron-icon icon="stars" item-icon></iron-icon>
+                        Profiles
+                    </paper-icon-item>
+                </paper-menu>
+            </paper-scroll-header-panel>
+            <paper-header-panel main>
+                <paper-toolbar></paper-toolbar>
+
+                <div>
+
+                </div>
+            </paper-header-panel>
+        </paper-drawer-panel>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "CustomTF",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fwdcp/CustomTF",
+  "authors": [
+    "Forward Command Post (http://fwdcp.net)"
+  ],
+  "description": "custom content manager for TF2",
+  "main": "main.js",
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.1.0",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.4",
+    "iron-elements": "PolymerElements/iron-elements#~1.0.3"
+  }
+}
