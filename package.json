@@ -1,0 +1,24 @@
+{
+  "name": "customtf",
+  "productName": "CustomTF",
+  "version": "0.0.0",
+  "description": "custom content manager for TF2",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwdcp/CustomTF.git"
+  },
+  "author": "Forward Command Post (http://fwdcp.net)",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/fwdcp/CustomTF/issues"
+  },
+  "homepage": "https://github.com/fwdcp/CustomTF#readme",
+  "dependencies": {
+    "es6-shim": "^0.32.2",
+    "glob": "^5.0.14",
+    "keyvalues-valve": "^0.1.0",
+    "nconf": "^0.7.1",
+    "vpk": "^0.2.0"
+  }
+}
